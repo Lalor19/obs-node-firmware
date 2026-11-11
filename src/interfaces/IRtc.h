@@ -6,6 +6,6 @@ class IRtc {
 public:
     virtual ~IRtc() = default;      // Destructor.
 
-    /** @brief Returns the current unix time (seconds since 1970-01-01) */
+    /** @brief Returns the current unix time (seconds since 1970-01-01, UTC) */
     virtual time_t now() = 0;
 };
